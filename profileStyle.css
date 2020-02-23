@@ -2,9 +2,15 @@ html,body{
     margin: 0;
     height: 100%;
     width: 100%;
-    background-color: #0b0f27;
+	background-color: #0b0f27;
+	overflow: scroll;
 }
- 
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
 /*Nav Bar*/
 nav {
 	width: 100%;
